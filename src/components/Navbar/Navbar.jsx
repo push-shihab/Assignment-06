@@ -4,7 +4,7 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className="border border-gray-300">
+    <div className="border border-gray-300 fixed top-0 right-0 z-50 w-full bg-white">
       <div className="container mx-auto">
         <div className="navbar bg-base-100">
           <div className="navbar-start">

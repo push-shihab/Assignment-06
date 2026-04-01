@@ -5,7 +5,7 @@ import { FaPlay } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto flex gap-15 justify-center py-21.25">
+    <div className="container mx-auto md:flex flex-wrap gap-15 justify-center py-21.25">
       <div className="space-y-4 flex flex-col justify-center">
         <span className="text-[#9514FA] bg-[#E1E7FF] flex gap-2 items-center justify-center rounded-4xl w-75 px-3 py-2 font-medium">
           <SiSocketdotio></SiSocketdotio>

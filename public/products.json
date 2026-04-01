@@ -1,0 +1,146 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Resume Starter",
+    "description": "Build a clean, professional resume in minutes with guided templates.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "new",
+    "features": [
+      "10 basic templates",
+      "PDF export",
+      "1 active resume",
+      "Community support"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": "prod-002",
+    "name": "Resume Pro",
+    "description": "ATS-optimized resumes with premium templates trusted by recruiters.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & DOCX",
+      "Priority support"
+    ],
+    "icon": "⭐"
+  },
+  {
+    "id": "prod-003",
+    "name": "Career Suite",
+    "description": "All-in-one career toolkit: resume, cover letter, and LinkedIn optimizer.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "Everything in Pro",
+      "Cover letter builder",
+      "LinkedIn optimizer",
+      "Interview prep kit"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": "prod-004",
+    "name": "Portfolio Builder",
+    "description": "Showcase your work with stunning project portfolios for creatives.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": [
+      "Drag & drop editor",
+      "Custom domain",
+      "5GB media storage",
+      "Analytics dashboard"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": "prod-005",
+    "name": "LinkedIn Rewrite",
+    "description": "One-time professional rewrite of your LinkedIn profile by AI + expert.",
+    "price": 49.0,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Full profile rewrite",
+      "Keyword optimization",
+      "3 revision rounds",
+      "30-day support"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": "prod-006",
+    "name": "Cover Letter AI",
+    "description": "Generate tailored cover letters for any job posting in seconds.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "Featured",
+    "tagType": "featured",
+    "features": [
+      "Unlimited letters",
+      "Job URL import",
+      "Tone customization",
+      "ATS-safe formatting"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": "prod-007",
+    "name": "Team Hiring Pack",
+    "description": "Manage job postings, applicant tracking, and interview scheduling in one place.",
+    "price": 199.0,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Up to 10 seats",
+      "ATS integration",
+      "Interview scheduler",
+      "Custom workflows"
+    ],
+    "icon": "👥"
+  },
+  {
+    "id": "prod-008",
+    "name": "Interview Coach",
+    "description": "AI-powered mock interviews with real-time feedback and scoring.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited mock sessions",
+      "Video + voice analysis",
+      "Industry-specific questions",
+      "Progress tracking"
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": "prod-009",
+    "name": "Lifetime Access",
+    "description": "Pay once, use forever. Full access to all current and future tools.",
+    "price": 299.0,
+    "period": "one-time",
+    "tag": "Limited",
+    "tagType": "limited",
+    "features": [
+      "All Pro features",
+      "Lifetime updates",
+      "Early feature access",
+      "Dedicated support"
+    ],
+    "icon": "♾️"
+  }
+]
