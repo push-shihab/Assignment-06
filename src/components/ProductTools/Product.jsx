@@ -42,7 +42,7 @@ const ProductCard = ({
         className={`${
           !isSelected[i]
             ? `cursor-pointer bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-4 w-full text-white rounded-4xl font-bold`
-            : `bg-amber-700 py-4 w-full text-white rounded-4xl font-bold btn-disabled`
+            : `cursor-pointer bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-4 w-full text-white rounded-4xl font-bold btn-disabled`
         }`}
       >
         {isSelected[i] ? `Purchased` : `Buy Now`}
