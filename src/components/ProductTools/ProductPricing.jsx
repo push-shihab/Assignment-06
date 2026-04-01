@@ -10,8 +10,10 @@ const ProductPricing = () => {
     return res;
   };
   const data = productData();
+
+  const [isSelected, setIsSelected] = useState([]);
+  const [selectedProducts, setSelectedProducts] = useState([]);
   const [active, setActive] = useState("product");
-  const [productCount, setProductCount] = useState([]);
   const handleProductsClick = () => {
     setActive("product");
   };
@@ -39,7 +41,7 @@ const ProductPricing = () => {
             className={`${active === "cart" && `px-4 py-2 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl `}
             cursor-pointer`}
           >
-            Cart (0)
+            Cart ({isSelected.filter((selected) => selected === true).length})
           </button>
         </div>
       </div>
@@ -52,10 +54,19 @@ const ProductPricing = () => {
               </div>
             }
           >
-            <Product data={data}></Product>
+            <Product
+              selectedProducts={selectedProducts}
+              setSelectedProducts={setSelectedProducts}
+              isSelected={isSelected}
+              setIsSelected={setIsSelected}
+              data={data}
+            ></Product>
           </Suspense>
         ) : (
-          <CartProducts></CartProducts>
+          <CartProducts
+            selectedProducts={selectedProducts}
+            setSelectedProducts={setSelectedProducts}
+          ></CartProducts>
         )}
       </div>
     </div>

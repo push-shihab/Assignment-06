@@ -3,10 +3,10 @@ import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
 import About from "../About/About";
 
-const Header = () => {
+const Header = ({ isSelected, setSelected }) => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar isSelected={isSelected} setSelected={setSelected}></Navbar>
       <Hero></Hero>
       <About></About>
     </div>
