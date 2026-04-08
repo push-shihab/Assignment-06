@@ -46,7 +46,7 @@ const ProductPricing = () => {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
         {active === "product" ? (
           <Suspense
             fallback={

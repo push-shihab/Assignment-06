@@ -10,7 +10,7 @@ const Pricing = () => {
       <p className="text-[#627382]">
         Choose the plan that fits your needs. Upgrade or downgrade anytime.
       </p>
-      <div className="grid grid-cols-3 gap-10 pt-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-10">
         <div className="border shadow-xl rounded-2xl flex flex-col items-start p-6 bg-white space-y-3">
           <h3 className="font-bold text-2xl">Starter</h3>
           <p className="text-[#627382]">Perfect for getting started</p>
@@ -41,7 +41,7 @@ const Pricing = () => {
           </button>
         </div>
         <div className="border shadow-xl rounded-2xl flex flex-col items-start p-6 bg-violet-200 space-y-3 relative">
-          <span className="absolute text-xl text-white p-3 rounded-3xl -top-6 shadow-amber-200 shadow-2xl right-1/3 bg-green-800">
+          <span className="absolute text-xl text-white p-3 rounded-3xl -top-6 shadow-amber-200 shadow-2xl lg:right-20 md:right-27 sm:right-60 right-34 xl:right-32 2xl:right-42 bg-green-800">
             Most Popular
           </span>
           <h3 className="font-bold text-2xl">Pro</h3>

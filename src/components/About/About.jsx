@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white px-50 py-15 flex justify-center items-center gap-20">
+    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white px-50 py-15 md:flex flex-wrap justify-center items-center gap-20">
       <div>
         <h2 className="font-extrabold text-6xl">50K+</h2>
         <p className="font-medium text-2xl">Active Users</p>

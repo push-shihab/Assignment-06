@@ -4,8 +4,8 @@ import rocket from "../../assets/rocket.png";
 import packageimg from "../../assets/package.png";
 const GetStart = () => {
   return (
-    <div className="bg-[#dddddd2b] pt-10">
-      <div className="container mx-auto pb-10 ">
+    <div className="bg-[#dddddd2b] py-20">
+      <div className="container mx-auto pb-10">
         <div className="text-center">
           <h1 className="font-bold text-2xl">Get Started in 3 Steps</h1>
           <p className="text-[#627382]">
@@ -13,7 +13,7 @@ const GetStart = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-10 mt-10">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 mt-10">
           <div className="px-6 py-24 relative space-y-4 shadow-xl border rounded-2xl flex flex-col items-center bg-white">
             <p className="bg-[#9514FA] px-3 py-1.5 text-white top-3 right-3 rounded-full absolute">
               01

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-[#101727]">
       <div className="container mx-auto py-30 text-white">
-        <div className="grid grid-cols-5 gap-4 pb-20">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 pb-20">
           <div>
             <h1 className="text-4xl font-extrabold pb-3">DigiTools</h1>
             <p className="text-[#ddddddd1]">
@@ -87,10 +87,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="divider divider-neutral"></div>
-        <div className="text-[#dddddd7d] flex items-center justify-between">
+        <div className="text-[#dddddd7d] md:flex items-center flex-wrap justify-between">
           <div>© 2026 Digitools. All rights reserved.</div>
           <div>
-            <ul className="flex items-center gap-4">
+            <ul className="md:flex flex-wrap items-center gap-4">
               <li>
                 <a className="cursor-pointer">Privacy Policy</a>
               </li>
