@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const CartProducts = ({
   selectedProducts,
@@ -9,10 +10,28 @@ const CartProducts = ({
   const handleCheckout = () => {
     setCheckout("checkout");
     setSelectedProducts([]);
+    toast("Product purchased successfully", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "dark",
+    });
   };
   const handleRemove = (id) => {
     const remove = selectedProducts.filter((product) => product.id !== id);
     setSelectedProducts(remove);
+    toast("Product removed successfully", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "dark",
+    });
   };
   return checkout === "checkout" ? (
     <div className="flex justify-center items-center font-extrabold text-4xl col-span-full text-orange-600">

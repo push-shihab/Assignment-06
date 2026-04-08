@@ -1,5 +1,6 @@
 import React, { use } from "react";
 import { TiTick } from "react-icons/ti";
+import { toast } from "react-toastify";
 
 const ProductCard = ({
   product,
@@ -14,6 +15,15 @@ const ProductCard = ({
     clicked[i] = true;
     setIsSelected(clicked);
     setSelectedProducts([...selectedProducts, product]);
+    toast("Succesfully added to the cart", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "dark",
+    });
   };
   return (
     <div className="text-left p-6 shadow-xl space-y-4 relative bg-violet-200 rounded-2xl">
